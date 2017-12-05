@@ -39,12 +39,12 @@ public class EmployeServiceTest {
     public void exo302testFindById(){
         //Given
 
-        /*//When
-        Employe e = employeService.findById(2L);
+        //When
+        Employe e = EmployeService.findById(2L);
 
         //Then
         Assertions.assertThat(e).isNotNull();
-        Assertions.assertThat(e.getMatricule()).isEqualTo("M11109");*/
+        Assertions.assertThat(e.getMatricule()).isEqualTo("M11109");
 
     }
 
